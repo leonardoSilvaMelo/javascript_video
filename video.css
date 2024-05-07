@@ -1,3 +1,6 @@
+/*PALETA DE CORES: https://paletadecores.com/paleta/4aedd7/705647/ed6d4a/ffca64/3fd97f/ */
+
+
 * {
     box-sizing: border-box; /*terá explicação*/
     list-style: none;
@@ -101,4 +104,58 @@
     font-size: 2rem; 
   }
 
+  .box2{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(74,198,237);
+    background: linear-gradient(90deg, rgba(74,198,237,1) 30%, rgba(63,217,127,1) 100%);
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   
+  .form{
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 25px;
+    border-color: #072d66;
+    border-style: solid;
+    color: #072d66;
+    text-align: center;
+  }
+
+  .form h2{
+    color: #072d66;
+  }
+
+  .form a {
+    text-decoration: none;
+    color: #ed6d4a;
+  }
+
+  .form img{
+    width: 8rem;
+    height: auto;
+    margin-top: -100rem;
+  }
+
+  .input-width{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border-color: #072d66;
+    border-style: solid;
+  }
+
+  .btn_Enviar{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: #ed6d4a;
+    color: white;
+    font-size: 1.5rem;
+  }
