@@ -6,6 +6,11 @@
     list-style: none;
     margin: 0;
   }
+
+  @font-face {
+    font-family: Petshop;
+    src: url(./font/Monolite.otf);
+  }
   
   body {
     margin: 0;
@@ -24,7 +29,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 1.5rem;
-      
+      background-color: #ffca64;
   }
   
   header ul {
@@ -34,6 +39,17 @@
   
   header ul li {
    margin-left: 30px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: #705647;
+    font-weight: 550;
+  }
+
+  header ul li a:hover{
+    transition: 0.7s;
+    color: #7b4aed;
   }
   
   
@@ -112,11 +128,17 @@
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
   }
   
+
+  .maps h3{
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
   .form{
     padding: 3rem;
     background-color: rgba(255, 255, 255, 0.712);
@@ -163,6 +185,7 @@
   .btn_Enviar:hover {
     transition: 0.8s;
     cursor: pointer;
-    background-color: #ed6d4a;
+    background-color: #7b4aed;
+    border-color: #7b4aed;
     color: white;
   }
